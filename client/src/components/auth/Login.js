@@ -89,7 +89,7 @@ class Login extends Component {
 						<div className="m-login__signin">
 							<div className="m-login__head">
 								<h3 className="m-login__title">
-									Login To Your Account
+									Login  Social Connect [5 july]
 								</h3>
 							</div>
 							<form className="m-login__form m-form" onSubmit={this.onSubmit}>
@@ -100,7 +100,7 @@ class Login extends Component {
                 
 
 								<div className="form-group m-form__group">
-									<input className="form-control m-input m-login__form-input--last" type="password" placeholder="Password" value={this.state.email} 	onChange={this.onChange}
+									<input className="form-control m-input m-login__form-input--last" type="password" placeholder="Password" value={this.state.password} 	onChange={this.onChange}
 			error={errors.password} name="password"/>
 								</div>
 								<div className="row m-login__form-sub">
